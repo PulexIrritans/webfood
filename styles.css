@@ -73,13 +73,17 @@ a {
     display: block;
 }
 
+/* The following creates the flexbox which will hold the burger menu  */
+
 #side-drawer header {
     height: 5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 5%x;
+    padding: 0 5px;
 }
+
+/* Links that will show up in the side drawer */
 
 #side-drawer ul {
     list-style: none;
@@ -94,6 +98,7 @@ a {
     margin: 1rem 0;
 }
 
+/* Burger menu */
 #side-drawer a {
     color: rgb(253, 239, 213);
     font-size: 3rem;
